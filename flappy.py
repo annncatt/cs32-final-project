@@ -9,7 +9,7 @@ import json
 
 # Constants
 SCREEN_HEIGHT = 20
-SCREEN_WIDTH = 80
+SCREEN_WIDTH = 70
 pipe_cap_def = '==='
 pipe_cap = '='
 pipe_side = '|'
@@ -17,11 +17,11 @@ pipe_middle = ' '
 pipe_width = len(pipe_cap_def)
 max_height = 11
 min_height = 3
-GAP_HEIGHT = 10
+GAP_HEIGHT = 8
 PIPE_SPACING = 16
 TIME_STEP = 0.08 #0.12  # Smoother updates
 GAME_TIME = 60
-BIRD_CHAR = '\U0001F63A'
+BIRD_CHAR = '*'
 GRAVITY = 9.8*1.45 #1.35  # pixels/sec^2
 JUMP_STRENGTH = -9.5  # pixels/sec
 bird_x = SCREEN_WIDTH // 4
